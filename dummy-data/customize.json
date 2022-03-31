@@ -1,0 +1,11 @@
+{
+  "0": false,
+  "nav_menu_locations": {
+    "primary":58,
+    "footer":59
+  },
+  "button_link": "https:\/\/couponthemes.net\/themes",
+  "button_price": "79",
+  "html_before_button": "<h3>Your Coupon Theme Is Here!<\/h3>\n<h6>The last WordPress coupon directory theme you will ever need.<\/h6>\n<ul>\n<li>Powerful Coupon Listing With Filters<\/li>\n<li>Ajax Login & Sign Up Modal<\/li>\n<li>Quick Store Ajax Searchs<\/li>\n<li>Dedicated Store & Category Pages<\/li>\n<li>Coupon & Offer Modal Box<\/li>\n<li>Flexible Coupon Type<\/li>\n<li>Link Cloaking & Tracking<\/li>\n<li>And much more...<\/li>\n<\/ul>\n<p>The theme provides everything you need to build an affiliate coupon code websites.<\/p>",
+  "custom_css_post_id": -1
+}
