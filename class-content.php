@@ -123,7 +123,7 @@ class WP_Import_Demo_Content {
         $data = @json_decode( $data , true );
         $home_url = home_url('');
         // replace option
-        $data['site_logo'] = $this->replace_deep( 'http://demos.famethemes.com/wpcoupon', $home_url, $data['site_logo'] );
+        $data['site_logo'] = $this->replace_deep( 'https://www.couponthemes.live/wp-coupon-mate/', $home_url, $data['site_logo'] );
 
         if ( $this->processed_terms ) {
             foreach (( array ) $data['top_search_stores'] as $k => $t) {
@@ -443,7 +443,7 @@ class WP_Import_Demo_Content {
                             }
 
                         } elseif( in_array( $term['meta_key'] , array( '_wpc_store_image', '_wpc_cat_image' ) ) ) {
-                            $term['meta_value'] = str_replace( 'http://demos.famethemes.com/wpcoupon', $home_url, $term['meta_value'] );
+                            $term['meta_value'] = str_replace( 'https://www.couponthemes.live/wp-coupon-mate/', $home_url, $term['meta_value'] );
                         }
                         update_term_meta( $term_id, $term['meta_key'], $term['meta_value'] );
                     }
